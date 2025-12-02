@@ -1,0 +1,22 @@
+# Rime build data
+build/
+
+# Installation specific info (Machine ID)
+installation.yaml
+
+# User state and usage history
+user.yaml
+*.userdb/
+*.userdb.txt
+
+# Sync folder
+sync/
+
+# Temporary or backup files
+_unused_backup/
+*.old
+*.bak
+
+# OS generated files
+.DS_Store
+Thumbs.db

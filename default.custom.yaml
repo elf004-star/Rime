@@ -1,0 +1,17 @@
+# Rime default settings
+# encoding: utf-8
+
+patch:
+  # 方案列表将自动回退使用 default.yaml 中的配置（薄荷系列）
+  
+  # 强制重置简繁开关为 简体 (0)
+  # 即使你在使用中切换了繁体，下次重新部署或重启也会变回简体
+  # 注意：不同方案的开关位置可能不同，这里针对的是 rime_mint 的典型顺序
+  # 建议配合手动切换一次 Ctrl+Shift+4 确保生效
+  
+  # 尝试覆盖全局的开关状态
+  "switcher/save_options":
+    - full_shape
+    - ascii_punct
+    # - transcription  <-- 注释掉这行，不让 Rime 记住简繁状态，每次都重置
+    - emoji_suggestion
