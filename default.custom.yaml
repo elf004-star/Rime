@@ -15,3 +15,11 @@ patch:
     - ascii_punct
     # - transcription  <-- 注释掉这行，不让 Rime 记住简繁状态，每次都重置
     - emoji_suggestion
+
+  # 禁用 Shift 切换中英文，只保留 Ctrl+Space
+  "ascii_composer/switch_key":
+    Caps_Lock: commit_code
+    Control_L: noop
+    Control_R: noop
+    Shift_L: noop      # 禁用左 Shift 切换
+    Shift_R: noop      # 禁用右 Shift 切换

@@ -1,0 +1,6 @@
+# wubi98_mint custom settings
+# encoding: utf-8
+
+patch:
+  # 默认英文模式 (reset: 1 表示默认选择第二个状态，即英文)
+  "switches/@0/reset": 1

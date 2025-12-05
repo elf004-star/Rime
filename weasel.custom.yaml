@@ -1,0 +1,8 @@
+# Weasel custom settings
+# encoding: utf-8
+
+patch:
+  # 候选框横排显示
+  "style/horizontal": true
+  # 或者使用这个参数（效果相同）
+  # "style/candidate_list_layout": linear
