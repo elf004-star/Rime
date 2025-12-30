@@ -23,3 +23,6 @@ patch:
     Control_R: noop
     Shift_L: noop      # 禁用左 Shift 切换
     Shift_R: noop      # 禁用右 Shift 切换
+
+  "switcher/hotkeys":
+    - Control+Shift+M
