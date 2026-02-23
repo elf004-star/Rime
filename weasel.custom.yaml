@@ -6,3 +6,12 @@ patch:
   "style/horizontal": true
   # 或者使用这个参数（效果相同）
   # "style/candidate_list_layout": linear
+
+  # 各窗口独立记忆输入法状态（false = 每个窗口单独记忆中/英状态）
+  # true = 全局共享，切换一个窗口会影响所有窗口
+  global_ascii: false
+
+  # 针对特定应用的设置
+  app_options:
+    gvim.exe:           # Vi Improved - A Text Editor
+      ascii_mode: true  # 默认英文模式
